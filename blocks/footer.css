@@ -1,5 +1,5 @@
 .footer {
-  background-color: #2a2c2f;
+  width: 100%;
 }
 
 .footer__copyright {
@@ -12,4 +12,5 @@
   line-height: 26.08px;
   text-align: left;
   padding-bottom: 24px;
+  margin: 0;
 }

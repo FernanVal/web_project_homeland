@@ -1,8 +1,15 @@
+.header {
+  width: 100%;
+}
+
 .header__container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
 .header__logo {
   margin-top: 34px;
+  max-width: 255px;
+  max-height: 69px;
 }
