@@ -69,3 +69,146 @@
   text-align: left;
   color: #ffffff;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) /*Pantallas de tabletas*/ {
+  .content__heading-title-container {
+    max-width: 720px;
+    max-height: 255 px;
+    margin: auto 24px 30px 24px;
+  }
+  .content__title {
+    display: flex;
+    justify-content: center;
+    font-family: Inter;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 79px;
+    text-align: center;
+    color: #ffff;
+    margin: auto 119px 25px 119px;
+  }
+  .content__subtitle {
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    text-align: center;
+    color: #ffff;
+    margin: auto 24px 30px 24px;
+  }
+  .content__heading-image {
+    max-width: 768px;
+    max-height: 480px;
+    margin: auto auto 90px auto;
+  }
+  .content__intro {
+    max-width: 720px;
+    max-height: 573px;
+    margin: auto 24px 88px 24px;
+  }
+  .content__intro-tittle {
+    font-family: Inter;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 49px;
+    text-align: left;
+    color: #ffff;
+  }
+  .content__quote {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    color: #ffff;
+  }
+  .content__quote-author {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+    color: #ffff;
+  }
+  .content__description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    color: #ffff;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__heading-title-container {
+  }
+  .content__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44px;
+    text-align: center;
+    color: #ffff;
+    margin: auto 16px 16px 16px;
+  }
+  .content__subtitle {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: #ffff;
+    margin: auto 16px 40px 16px;
+  }
+  .content__heading-image {
+    max-width: 320px;
+    max-height: 200px;
+    margin: auto auto 64px auto;
+  }
+  .content__intro {
+    max-width: 288px;
+    max-height: 1033px;
+    margin: auto 16px 64px 16px;
+  }
+  .content__intro-tittle {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 35px;
+    text-align: left;
+    color: #ffff;
+  }
+  .content__quote {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: #ffff;
+  }
+  .content__quote-author {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+    color: #ffff;
+  }
+  .content__description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26.08px;
+    text-align: left;
+    color: #ffff;
+  }
+  .footer__copyright {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: left;
+    color: #ffff;
+  }
+}

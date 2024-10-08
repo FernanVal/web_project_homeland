@@ -13,3 +13,21 @@
   max-width: 255px;
   max-height: 69px;
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  /*pantallas de tabletas*/
+  .header__logo {
+    max-width: 254px;
+    max-height: 66px;
+    margin: 30px auto 90px auto;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  /* Pantallas de celulares*/
+  .header__logo {
+    max-width: 188px;
+    max-height: 52px;
+    margin: 20px 66px 50px 66px;
+  }
+}
