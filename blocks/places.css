@@ -1,4 +1,7 @@
 .places {
+  /*display: flex;
+  justify-content: center;
+  align-items: center;*/
 }
 
 .places__container {
@@ -31,9 +34,13 @@
   color: #ffffff;
   max-width: 460px;
   max-height: 152px;
+  margin: 0;
 }
 
 .places__info {
+  max-width: 456px;
+  max-height: 67px;
+  margin: 85px auto 48px 40px;
 }
 
 .places__info-header {
@@ -44,6 +51,7 @@
   letter-spacing: 0.12em;
   text-align: left;
   color: #ffffff;
+  margin: 0;
 }
 
 .places__info-author {
@@ -53,6 +61,7 @@
   line-height: 22px;
   text-align: left;
   color: #ffffff;
+  margin: 0;
 }
 
 .places__info-authorinfo {
@@ -62,9 +71,12 @@
   line-height: 22px;
   text-align: left;
   color: #ffffff;
+  margin: 0;
 }
 
 .places__image {
+  max-width: 460px;
+  max-height: 460px;
 }
 
 .places__text {
@@ -91,4 +103,14 @@
   border-radius: 3px;
   padding: 0;
   text-decoration: none;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
