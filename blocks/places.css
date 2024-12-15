@@ -77,6 +77,7 @@
 .places__image {
   max-width: 460px;
   max-height: 460px;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .places__text {
@@ -124,4 +125,14 @@
 
 .places__button:hover {
   background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+}
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .places__container--grid {
+    max-width: 720px;
+    max-height: 2912px;
+  }
+}
+
+@media screen and (max-width: 320px) {
 }
