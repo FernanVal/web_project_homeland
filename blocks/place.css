@@ -41,6 +41,10 @@
   box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
+.place__image:hover {
+  opacity: 50%;
+}
+
 .place__button {
   margin: 0;
   width: 70%;
@@ -59,7 +63,7 @@
 }
 
 .place__button:hover {
-  background: linear-gradient(90deg, #0278fe40 0%, #003a7b40 99.98%);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
 }
 
 .place__artist {
